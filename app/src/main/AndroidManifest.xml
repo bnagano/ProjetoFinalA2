@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nagano.appgames">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppGames">
+        <activity android:name=".zelda"></activity>
+        <activity android:name=".witcher" />
+        <activity android:name=".warzone" />
+        <activity android:name=".tr" />
+        <activity android:name=".tk7" />
+        <activity android:name=".spiderman" />
+        <activity android:name=".sot" />
+        <activity android:name=".skyrim" />
+        <activity android:name=".sims4" />
+        <activity android:name=".sekiro" />
+        <activity android:name=".re8" />
+        <activity android:name=".re4" />
+        <activity android:name=".rdr2" />
+        <activity android:name=".r6" />
+        <activity android:name=".pubg" />
+        <activity android:name=".outlast" />
+        <activity android:name=".mine" />
+        <activity android:name=".lol" />
+        <activity android:name=".lastus" />
+        <activity android:name=".isaac" />
+        <activity android:name=".horizon" />
+        <activity android:name=".hk" />
+        <activity android:name=".hades" />
+        <activity android:name=".gtav" />
+        <activity android:name=".gtasa" />
+        <activity android:name=".gow" />
+        <activity android:name=".forza" />
+        <activity android:name=".fortnite" />
+        <activity android:name=".fifa" />
+        <activity android:name=".ff" />
+        <activity android:name=".fallout4" />
+        <activity android:name=".ds" />
+        <activity android:name=".doom" />
+        <activity android:name=".diablo" />
+        <activity android:name=".dbd" />
+        <activity android:name=".dayz" />
+        <activity android:name=".cyber" />
+        <activity android:name=".cup" />
+        <activity android:name=".csgo" />
+        <activity android:name=".crash" />
+        <activity android:name=".cod" />
+        <activity android:name=".bully" />
+        <activity android:name=".bf4" />
+        <activity android:name=".bloodborne" />
+        <activity android:name=".amongus" />
+        <activity android:name=".games" />
+        <activity android:name=".FormularioActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppGames.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
